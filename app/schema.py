@@ -17,7 +17,7 @@ class UserResponseSchema(Schema):
 
 class LikeSongSchema(Schema):
     id=fields.Int(dump_only=True)
-    song_id=fields.Str(required=True)
+    song_id=fields.Int(required=True)
     title=fields.Str(required=True)
     artist=fields.Str(required=True)
     album=fields.Str()
@@ -26,7 +26,7 @@ class LikeSongSchema(Schema):
 
 class SongSchema(Schema):
     id=fields.Int()
-    song_id = fields.Str()
+    song_id = fields.Int()
     title=fields.Str()
     artist=fields.Str()
     album=fields.Str()
@@ -43,7 +43,7 @@ class PlaylistResponseSchema(Schema):
 
 class PlaylistSongCreateSchema(Schema):
     id=fields.Int(dump_only=True)
-    song_id = fields.Str(required=True)
+    song_id = fields.Int(required=True)
     title=fields.Str()
     artist=fields.Str()
     album=fields.Str()
@@ -52,7 +52,7 @@ class PlaylistSongCreateSchema(Schema):
 
 class PlaylistSongResponseSchema(Schema):
     id=fields.Int()
-    song_id = fields.Str()
+    song_id = fields.Int()
     title=fields.Str()
     artist=fields.Str()
     image=fields.Str()

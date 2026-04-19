@@ -189,3 +189,15 @@
 2026-04-18 17:58:47,710 - INFO - 127.0.0.1 - - [18/Apr/2026 17:58:47] "GET /api/songs?q=bollywood HTTP/1.1" 200 -
 2026-04-18 17:59:05,654 - INFO - Search song with query parameter: sunidhi
 2026-04-18 17:59:05,654 - INFO - 127.0.0.1 - - [18/Apr/2026 17:59:05] "GET /api/songs?q=sunidhi HTTP/1.1" 200 -
+2026-04-20 02:11:32,676 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-20 02:11:32,677 - INFO - Deleted expired tokens
+2026-04-20 02:11:32,771 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 02:11:32,771 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 02:11:32,772 - INFO -  * Restarting with stat
+2026-04-20 02:11:33,214 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-20 02:11:33,215 - INFO - Deleted expired tokens
+2026-04-20 02:11:33,242 - WARNING -  * Debugger is active!
+2026-04-20 02:11:33,260 - INFO -  * Debugger PIN: 330-599-223
+2026-04-20 02:12:23,636 - INFO - New user registered: test@gmail.com
+2026-04-20 02:12:23,637 - INFO - 127.0.0.1 - - [20/Apr/2026 02:12:23] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -

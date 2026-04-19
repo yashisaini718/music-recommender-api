@@ -1,6 +1,6 @@
 from flask import Flask
 from app.config import Config
-from app.extensions import db, bcrypt, jwt
+from app.extensions import db, bcrypt, jwt, migrate
 import logging
 
 logging.basicConfig(
@@ -17,6 +17,7 @@ def create_app(config_class=Config):
     db.init_app(app)
     bcrypt.init_app(app)
     jwt.init_app(app)
+    migrate.init_app(app,db)
 
     from app.auth.routes import auth
     from app.songs.routes import songs
@@ -24,12 +25,16 @@ def create_app(config_class=Config):
     from app.handlers.errors import error
     from app.handlers import jwt_handlers
 
-    with app.app_context():
-        db.create_all()
+   # with app.app_context():
+   #     db.create_all()
 
     with app.app_context():
         from app.utils import cleanup_expired_tokens
-        cleanup_expired_tokens()
+        try:
+            cleanup_expired_tokens()
+            app.logger.info(f"Deleted expired tokens")
+        except Exception as e:
+            app.logger.warning(f"Token cleanup failed: {e}")
 
     app.register_blueprint(auth)
     app.register_blueprint(songs)

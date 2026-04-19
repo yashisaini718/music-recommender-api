@@ -13,7 +13,7 @@ class User(db.Model):
 class LikedSongs(db.Model):
     id=db.Column(db.Integer,primary_key=True)
     user_id=db.Column(db.Integer, db.ForeignKey('user.id'),nullable=False)
-    song_id=db.Column(db.String(100))
+    song_id=db.Column(db.BigInteger())
     title=db.Column(db.String(200))
     artist=db.Column(db.String(200))
     album=db.Column(db.String(200))
@@ -29,7 +29,7 @@ class Playlist(db.Model):
 class PlaylistSong(db.Model):
     id=db.Column(db.Integer(),primary_key=True)
     playlist_id=db.Column(db.Integer(),db.ForeignKey('playlist.id'))
-    song_id=db.Column(db.String(100))
+    song_id=db.Column(db.BigInteger())
     title=db.Column(db.String(200))
     artist=db.Column(db.String(200))
     album=db.Column(db.String(200))
