@@ -1,0 +1,191 @@
+2026-04-18 16:16:11,639 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:16:11,818 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 16:16:11,818 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 16:16:11,819 - INFO -  * Restarting with stat
+2026-04-18 16:16:12,173 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:16:12,203 - WARNING -  * Debugger is active!
+2026-04-18 16:16:12,219 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 16:17:43,894 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:17:43,933 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 16:17:43,933 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 16:17:43,933 - INFO -  * Restarting with stat
+2026-04-18 16:17:44,289 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:17:44,318 - WARNING -  * Debugger is active!
+2026-04-18 16:17:44,330 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 16:22:58,371 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:22:58,405 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 16:22:58,405 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 16:22:58,406 - INFO -  * Restarting with stat
+2026-04-18 16:22:58,763 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:22:58,791 - WARNING -  * Debugger is active!
+2026-04-18 16:22:58,803 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 16:30:48,247 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:30:48,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 16:30:48,281 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 16:30:48,281 - INFO -  * Restarting with stat
+2026-04-18 16:30:48,635 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 16:30:48,665 - WARNING -  * Debugger is active!
+2026-04-18 16:30:48,677 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 16:36:52,500 - INFO - New user registered: test@gmail.com
+2026-04-18 16:36:52,501 - INFO - 127.0.0.1 - - [18/Apr/2026 16:36:52] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -
+2026-04-18 16:37:43,488 - WARNING - Registration failed - email exists: test@gmail.com
+2026-04-18 16:37:43,489 - INFO - 127.0.0.1 - - [18/Apr/2026 16:37:43] "[31m[1mPOST /api/auth/register HTTP/1.1[0m" 400 -
+2026-04-18 16:38:18,724 - WARNING - Registration failed - username exists: testuser
+2026-04-18 16:38:18,725 - INFO - 127.0.0.1 - - [18/Apr/2026 16:38:18] "[31m[1mPOST /api/auth/register HTTP/1.1[0m" 400 -
+2026-04-18 16:39:26,319 - ERROR - Validation Error: {'username': ['Unknown field.']}
+2026-04-18 16:39:26,320 - INFO - 127.0.0.1 - - [18/Apr/2026 16:39:26] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 400 -
+2026-04-18 16:39:51,274 - INFO - Login attempt for test1@gmail.com
+2026-04-18 16:39:51,276 - WARNING - Failed login for test1@gmail.com
+2026-04-18 16:39:51,277 - INFO - 127.0.0.1 - - [18/Apr/2026 16:39:51] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2026-04-18 16:40:45,132 - INFO - Login attempt for test@gmail.com
+2026-04-18 16:40:45,485 - INFO - 127.0.0.1 - - [18/Apr/2026 16:40:45] "POST /api/auth/login HTTP/1.1" 200 -
+2026-04-18 16:49:35,433 - INFO - Login attempt for test@gmail.com
+2026-04-18 16:49:35,787 - INFO - 127.0.0.1 - - [18/Apr/2026 16:49:35] "POST /api/auth/login HTTP/1.1" 200 -
+2026-04-18 16:58:13,697 - INFO - 127.0.0.1 - - [18/Apr/2026 16:58:13] "GET /api/auth/me HTTP/1.1" 200 -
+2026-04-18 17:00:13,015 - INFO - 127.0.0.1 - - [18/Apr/2026 17:00:13] "[31m[1mPOST /api/auth/refresh HTTP/1.1[0m" 422 -
+2026-04-18 17:02:20,062 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/auth/routes.py', reloading
+2026-04-18 17:02:20,196 - INFO -  * Restarting with stat
+2026-04-18 17:02:20,692 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:02:20,728 - WARNING -  * Debugger is active!
+2026-04-18 17:02:20,745 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:02:21,768 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/auth/routes.py', reloading
+2026-04-18 17:02:21,931 - INFO -  * Restarting with stat
+2026-04-18 17:02:22,315 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:02:22,343 - WARNING -  * Debugger is active!
+2026-04-18 17:02:22,355 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:02:26,405 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/auth/routes.py', reloading
+2026-04-18 17:02:26,534 - INFO -  * Restarting with stat
+2026-04-18 17:02:26,904 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:02:26,946 - WARNING -  * Debugger is active!
+2026-04-18 17:02:26,958 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:02:30,003 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/auth/routes.py', reloading
+2026-04-18 17:02:30,115 - INFO -  * Restarting with stat
+2026-04-18 17:02:30,481 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:02:30,510 - WARNING -  * Debugger is active!
+2026-04-18 17:02:30,522 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:02:34,573 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/auth/routes.py', reloading
+2026-04-18 17:02:34,710 - INFO -  * Restarting with stat
+2026-04-18 17:02:35,095 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:02:35,126 - WARNING -  * Debugger is active!
+2026-04-18 17:02:35,138 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:02:37,092 - INFO - 127.0.0.1 - - [18/Apr/2026 17:02:37] "[31m[1mPOST /api/auth/refresh HTTP/1.1[0m" 422 -
+2026-04-18 17:05:24,279 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/auth/routes.py', reloading
+2026-04-18 17:05:24,421 - INFO -  * Restarting with stat
+2026-04-18 17:05:24,804 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:05:24,832 - WARNING -  * Debugger is active!
+2026-04-18 17:05:24,844 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:05:36,771 - INFO - Login attempt for test@gmail.com
+2026-04-18 17:05:37,128 - INFO - 127.0.0.1 - - [18/Apr/2026 17:05:37] "POST /api/auth/login HTTP/1.1" 200 -
+2026-04-18 17:05:57,884 - INFO - Access token refreshed for user 4 !
+2026-04-18 17:05:57,885 - INFO - 127.0.0.1 - - [18/Apr/2026 17:05:57] "POST /api/auth/refresh HTTP/1.1" 200 -
+2026-04-18 17:07:38,730 - INFO - 127.0.0.1 - - [18/Apr/2026 17:07:38] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-04-18 17:08:03,574 - INFO - 127.0.0.1 - - [18/Apr/2026 17:08:03] "GET /api/auth/me HTTP/1.1" 200 -
+2026-04-18 17:08:20,811 - INFO - 127.0.0.1 - - [18/Apr/2026 17:08:20] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-04-18 17:11:19,237 - INFO - 127.0.0.1 - - [18/Apr/2026 17:11:19] "GET /api/auth/me HTTP/1.1" 200 -
+2026-04-18 17:16:27,197 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/__init__.py', reloading
+2026-04-18 17:16:27,288 - INFO -  * Restarting with stat
+2026-04-18 17:16:27,790 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:16:27,823 - WARNING -  * Debugger is active!
+2026-04-18 17:16:27,837 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:16:28,855 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/__init__.py', reloading
+2026-04-18 17:16:28,953 - INFO -  * Restarting with stat
+2026-04-18 17:23:22,741 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:23:22,773 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 17:23:22,774 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 17:23:22,774 - INFO -  * Restarting with stat
+2026-04-18 17:23:23,133 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:23:23,163 - WARNING -  * Debugger is active!
+2026-04-18 17:23:23,175 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:24:12,825 - INFO - 127.0.0.1 - - [18/Apr/2026 17:24:12] "[31m[1mGET /api/auth/me HTTP/1.1[0m" 401 -
+2026-04-18 17:25:29,796 - INFO - Login attempt for test@gmail.com
+2026-04-18 17:25:30,154 - INFO - 127.0.0.1 - - [18/Apr/2026 17:25:30] "POST /api/auth/login HTTP/1.1" 200 -
+2026-04-18 17:26:36,486 - INFO - Search song with query parameter: yaseer
+2026-04-18 17:26:36,487 - INFO - 127.0.0.1 - - [18/Apr/2026 17:26:36] "GET /api/songs?q=yaseer HTTP/1.1" 200 -
+2026-04-18 17:27:21,543 - WARNING - missing query parameter
+2026-04-18 17:27:21,544 - INFO - 127.0.0.1 - - [18/Apr/2026 17:27:21] "[31m[1mGET /api/songs HTTP/1.1[0m" 400 -
+2026-04-18 17:28:20,651 - INFO - Search song with query parameter: yaseer
+2026-04-18 17:28:20,652 - INFO - 127.0.0.1 - - [18/Apr/2026 17:28:20] "GET /api/songs?q=yaseer HTTP/1.1" 200 -
+2026-04-18 17:30:21,776 - ERROR - Validation Error: {'song_id': ['Not a valid string.']}
+2026-04-18 17:30:21,777 - INFO - 127.0.0.1 - - [18/Apr/2026 17:30:21] "[31m[1mPOST /api/songs/like-song HTTP/1.1[0m" 400 -
+2026-04-18 17:30:41,064 - INFO - User 4 liked song 1208118489
+2026-04-18 17:30:41,064 - INFO - 127.0.0.1 - - [18/Apr/2026 17:30:41] "[35m[1mPOST /api/songs/like-song HTTP/1.1[0m" 201 -
+2026-04-18 17:31:27,771 - WARNING - User 4 tried to like already liked song 1208118489
+2026-04-18 17:31:27,771 - INFO - 127.0.0.1 - - [18/Apr/2026 17:31:27] "[31m[1mPOST /api/songs/like-song HTTP/1.1[0m" 409 -
+2026-04-18 17:32:34,455 - INFO - 127.0.0.1 - - [18/Apr/2026 17:32:34] "[31m[1mGET /api/songs/like-song HTTP/1.1[0m" 405 -
+2026-04-18 17:32:42,678 - INFO - 127.0.0.1 - - [18/Apr/2026 17:32:42] "[35m[1mGET /api/songs/liked-song HTTP/1.1[0m" 500 -
+2026-04-18 17:33:40,178 - INFO - 127.0.0.1 - - [18/Apr/2026 17:33:40] "[35m[1mGET /api/songs/liked-song?page=2&limit=5 HTTP/1.1[0m" 500 -
+2026-04-18 17:37:51,057 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/handlers/errors.py', reloading
+2026-04-18 17:37:51,151 - INFO -  * Restarting with stat
+2026-04-18 17:38:57,536 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:38:57,575 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 17:38:57,575 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 17:38:57,576 - INFO -  * Restarting with stat
+2026-04-18 17:38:57,929 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:38:57,958 - WARNING -  * Debugger is active!
+2026-04-18 17:38:57,972 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:39:10,385 - ERROR - NOT FOUND Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-18 17:39:10,386 - INFO - 127.0.0.1 - - [18/Apr/2026 17:39:10] "[33mGET /api/songs/liked-song?page=2&limit=5 HTTP/1.1[0m" 404 -
+2026-04-18 17:39:28,795 - INFO - 127.0.0.1 - - [18/Apr/2026 17:39:28] "GET /api/songs/liked-songs?page=2&limit=5 HTTP/1.1" 200 -
+2026-04-18 17:39:45,534 - WARNING - User 4 tried to like already liked song 1208118489
+2026-04-18 17:39:45,535 - INFO - 127.0.0.1 - - [18/Apr/2026 17:39:45] "[31m[1mPOST /api/songs/like-song HTTP/1.1[0m" 409 -
+2026-04-18 17:39:50,998 - INFO - 127.0.0.1 - - [18/Apr/2026 17:39:50] "GET /api/songs/liked-songs?page=2&limit=5 HTTP/1.1" 200 -
+2026-04-18 17:39:54,758 - INFO - Fetched liked songs for user 4
+2026-04-18 17:39:54,759 - INFO - 127.0.0.1 - - [18/Apr/2026 17:39:54] "GET /api/songs/liked-songs?page=1&limit=5 HTTP/1.1" 200 -
+2026-04-18 17:40:55,783 - INFO - Search song with query parameter: arijit
+2026-04-18 17:40:55,784 - INFO - 127.0.0.1 - - [18/Apr/2026 17:40:55] "GET /api/songs?q=arijit HTTP/1.1" 200 -
+2026-04-18 17:41:21,037 - INFO - 127.0.0.1 - - [18/Apr/2026 17:41:21] "[31m[1mPOST /api/songs/like-song HTTP/1.1[0m" 401 -
+2026-04-18 17:41:33,999 - INFO - Access token refreshed for user 4 !
+2026-04-18 17:41:34,000 - INFO - 127.0.0.1 - - [18/Apr/2026 17:41:34] "POST /api/auth/refresh HTTP/1.1" 200 -
+2026-04-18 17:41:43,657 - INFO - User 4 liked song 1478998926
+2026-04-18 17:41:43,658 - INFO - 127.0.0.1 - - [18/Apr/2026 17:41:43] "[35m[1mPOST /api/songs/like-song HTTP/1.1[0m" 201 -
+2026-04-18 17:41:55,184 - INFO - Fetched liked songs for user 4
+2026-04-18 17:41:55,185 - INFO - 127.0.0.1 - - [18/Apr/2026 17:41:55] "GET /api/songs/liked-songs?page=1&limit=5 HTTP/1.1" 200 -
+2026-04-18 17:42:27,241 - INFO - Access token refreshed for user 4 !
+2026-04-18 17:42:27,241 - INFO - 127.0.0.1 - - [18/Apr/2026 17:42:27] "POST /api/auth/refresh HTTP/1.1" 200 -
+2026-04-18 17:43:31,103 - INFO - Fetched recommndations for user 4
+2026-04-18 17:43:31,104 - INFO - 127.0.0.1 - - [18/Apr/2026 17:43:31] "GET /api/songs/recommendations HTTP/1.1" 200 -
+2026-04-18 17:45:26,024 - INFO - 127.0.0.1 - - [18/Apr/2026 17:45:26] "[35m[1mPOST /api/playlists HTTP/1.1[0m" 201 -
+2026-04-18 17:46:06,108 - INFO - 127.0.0.1 - - [18/Apr/2026 17:46:06] "[35m[1mPOST /api/playlists HTTP/1.1[0m" 201 -
+2026-04-18 17:46:51,937 - INFO - 127.0.0.1 - - [18/Apr/2026 17:46:51] "GET /api/playlists HTTP/1.1" 200 -
+2026-04-18 17:48:04,280 - ERROR - Validation Error: {'song_id': ['Not a valid string.']}
+2026-04-18 17:48:04,295 - INFO - 127.0.0.1 - - [18/Apr/2026 17:48:04] "[35m[1mPOST /api/playlists/2/songs HTTP/1.1[0m" 500 -
+2026-04-18 17:48:34,027 - INFO -  * Detected change in '/Users/yashisaini/Desktop/python/music-recommender/app/handlers/errors.py', reloading
+2026-04-18 17:48:34,113 - INFO -  * Restarting with stat
+2026-04-18 17:49:11,810 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:49:11,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-18 17:49:11,850 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-18 17:49:11,851 - INFO -  * Restarting with stat
+2026-04-18 17:49:12,209 - INFO - [CLEANUP] Deleted 0 expired tokens
+2026-04-18 17:49:12,238 - WARNING -  * Debugger is active!
+2026-04-18 17:49:12,251 - INFO -  * Debugger PIN: 330-599-223
+2026-04-18 17:49:16,457 - ERROR - Validation Error: {'song_id': ['Not a valid string.']}
+2026-04-18 17:49:16,458 - INFO - 127.0.0.1 - - [18/Apr/2026 17:49:16] "[31m[1mPOST /api/playlists/2/songs HTTP/1.1[0m" 400 -
+2026-04-18 17:49:28,588 - INFO - Song 1267390213 added to playlist 2 for user 4 !
+2026-04-18 17:49:28,588 - INFO - 127.0.0.1 - - [18/Apr/2026 17:49:28] "[35m[1mPOST /api/playlists/2/songs HTTP/1.1[0m" 201 -
+2026-04-18 17:50:19,737 - INFO - Song 1824400213 added to playlist 1 for user 4 !
+2026-04-18 17:50:19,738 - INFO - 127.0.0.1 - - [18/Apr/2026 17:50:19] "[35m[1mPOST /api/playlists/1/songs HTTP/1.1[0m" 201 -
+2026-04-18 17:50:51,109 - INFO - 127.0.0.1 - - [18/Apr/2026 17:50:51] "[31m[1mPOST /api/playlists/2 HTTP/1.1[0m" 405 -
+2026-04-18 17:51:04,004 - INFO - 127.0.0.1 - - [18/Apr/2026 17:51:04] "[31m[1mGET /api/playlists/2 HTTP/1.1[0m" 405 -
+2026-04-18 17:51:29,141 - INFO - 127.0.0.1 - - [18/Apr/2026 17:51:29] "GET /api/playlists/2/songs HTTP/1.1" 200 -
+2026-04-18 17:52:17,901 - INFO - User 4 tried deleting unauthorized song "1267390213"
+2026-04-18 17:52:17,902 - INFO - 127.0.0.1 - - [18/Apr/2026 17:52:17] "[33mDELETE /api/playlists/2/songs/"1267390213" HTTP/1.1[0m" 404 -
+2026-04-18 17:52:43,446 - ERROR - NOT FOUND Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-04-18 17:52:43,447 - INFO - 127.0.0.1 - - [18/Apr/2026 17:52:43] "[33mGET /api/playlists/2/songs/ HTTP/1.1[0m" 404 -
+2026-04-18 17:52:47,049 - INFO - 127.0.0.1 - - [18/Apr/2026 17:52:47] "GET /api/playlists/2/songs HTTP/1.1" 200 -
+2026-04-18 17:53:29,176 - INFO - User 4 tried deleting unauthorized song "1267390213"
+2026-04-18 17:53:29,177 - INFO - 127.0.0.1 - - [18/Apr/2026 17:53:29] "[33mDELETE /api/playlists/2/songs/"1267390213" HTTP/1.1[0m" 404 -
+2026-04-18 17:53:35,504 - INFO - song 1267390213 removed from playlist 2 by user 4
+2026-04-18 17:53:35,504 - INFO - 127.0.0.1 - - [18/Apr/2026 17:53:35] "DELETE /api/playlists/2/songs/1267390213 HTTP/1.1" 200 -
+2026-04-18 17:58:32,348 - INFO - Search song with query parameter: love
+2026-04-18 17:58:32,350 - INFO - 127.0.0.1 - - [18/Apr/2026 17:58:32] "GET /api/songs?q=love HTTP/1.1" 200 -
+2026-04-18 17:58:47,710 - INFO - Search song with query parameter: bollywood
+2026-04-18 17:58:47,710 - INFO - 127.0.0.1 - - [18/Apr/2026 17:58:47] "GET /api/songs?q=bollywood HTTP/1.1" 200 -
+2026-04-18 17:59:05,654 - INFO - Search song with query parameter: sunidhi
+2026-04-18 17:59:05,654 - INFO - 127.0.0.1 - - [18/Apr/2026 17:59:05] "GET /api/songs?q=sunidhi HTTP/1.1" 200 -
